@@ -1,4 +1,12 @@
+:root {
+    --background-color: #000;
+}
+
 body {
-    background-color: #000;
+    background-color: var(--background-color, blue);
     color: #fff;
+}
+
+h1 {
+    color: red;
 }
