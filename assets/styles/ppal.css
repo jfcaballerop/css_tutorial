@@ -5,8 +5,25 @@
 body {
     background-color: var(--background-color, blue);
     color: #fff;
+    writing-mode: horizontal-tb;
 }
 
 h1 {
     color: red;
+}
+
+.box {
+    /* Propiedades lógicas */
+    inline-size: 150px;
+    block-size: 150px;
+    border-block-start: 50px solid black;
+    border-block-end: 50px solid hotpink;
+
+    /* Otras propiedades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: #fff;
+    font-size: 42px;
 }
