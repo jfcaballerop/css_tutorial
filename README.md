@@ -14,3 +14,4 @@ Variables CSS no existían hace años, y de hecho, fue una de las razones por la
 El objetivo principal suele ser evitar escribir múltiples veces ese valor, y en su lugar, ponerle un nombre más lógico y fácil de recordar, que hará referencia al valor real.
 
 También es importante mencionar que las variables CSS no funcionan exactamente igual que las variables Sass o las variables LESS (en general, las variables de preprocesadores).
+
